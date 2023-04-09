@@ -29,6 +29,18 @@ using namespace ariel;
     string Player::print(){
         return"";
     };
+    int Player::getWinCounter()
+    {
+        return 0;
+    };
+    int Player::getLoseCounter()
+    {
+        return 0;
+    };
+    int Player::getDrawCounter()
+    {
+        return 0;
+    };
 
 
    

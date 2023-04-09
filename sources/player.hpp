@@ -11,6 +11,7 @@ using namespace ariel;
 class Player{
     
     string name;
+    int *record;
 
     public:
 
@@ -19,19 +20,6 @@ class Player{
     Player(string name);
     
     //Demo methods   
-    
-    int getWinCounter(){
-        return 1;
-    };
-    int getLoseCounter(){
-
-        return 1;
-    };
-
-    int getDrawCounter(){
-
-        return 1;
-    };
 
 
     int stacksize();
@@ -41,6 +29,9 @@ class Player{
     Card takeCard();
 
     string print();
+    int getWinCounter();
+    int getLoseCounter();
+    int getDrawCounter();
     
 };
 

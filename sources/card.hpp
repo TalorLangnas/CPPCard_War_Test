@@ -22,9 +22,9 @@ namespace ariel {
     int compareTo(Card);
     string print();
     
-    int getNumber(){
-        return this->number;
-    }; 
+    // int getNumber(){
+    //     return this->number;
+    // }; 
 
     string getSuit(){
         return this->suit;
